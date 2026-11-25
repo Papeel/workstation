@@ -124,3 +124,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Configuración específica de esta máquina (no versionada)
 [[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
+
+# opencode
+export PATH=/home/nelson/.opencode/bin:$PATH
